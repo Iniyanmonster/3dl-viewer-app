@@ -1,0 +1,30 @@
+1. Generate 3D model ----
+
+    1. get --> length,width,thickness  from UI
+    2. execute ---> python-script
+            change_window_dimensions(length,thickness,height,out_folder_path).write_files()
+
+            note-- output folder should be assets
+
+
+    result ---  3D models will be written on the output_folder
+
+
+    3. Display 3D model ---
+
+            execute----> onload()      (from stl-viewer.js)
+
+
+2. Color change ----
+    1. get --->frame Color  from UI
+    2. execute----->  colorChange(color)
+
+3. Animate ----
+
+    1.open ischecked ---> animateOpen(color)
+            color should be matched previous color
+
+    2.close ischecked --->animateClose(color)
+            color should be matched previous color
+
+
